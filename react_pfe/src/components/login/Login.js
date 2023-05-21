@@ -5,11 +5,11 @@ import {BsEnvelopeFill} from 'react-icons/bs'
 import React, { useState } from 'react'
 
 export default function Login() {
-    const [s,setSwip]= useState('')
-    const toswip=()=>{s?setSwip(''):setSwip('sign-up-mode');}
+    const [move,setSwip]= useState('')
+    const toswip=()=>{move?setSwip(''):setSwip('sign-up-mode');}
   return (
     <div className='body'>
-        <div className={`container ${s}`}>
+        <div className={`container ${move}`}>
            
     <div className="forms-container">
       <div className="signin-signup">
