@@ -7,12 +7,12 @@
     display:flex;
 }
 main{
-    width: 80%;
+    width: 100%;
     padding: 20px;
+    width: 100%;
 }
 .sidebar{
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-right-radius:50px ;
     background: #3586ff;
     color: #fff;
     height: 100vh;
@@ -53,3 +53,29 @@ main{
 .icon, .link_text{
     font-size: 20px;
 }
+.sidebar{
+    width: 200;
+}
+.logo{
+    display: block;
+}
+.bars{
+    margin-left: 70px;
+}
+.link_text{
+    display: block;
+}
+@media screen and ( max-width: 570px) {
+    .sidebar{
+        width: 50px;
+    }
+    .logo{
+        display: none;
+    }
+    .bars{
+        margin-left: 0px;
+    }
+    .link_text{
+        display: none;
+    }
+  }

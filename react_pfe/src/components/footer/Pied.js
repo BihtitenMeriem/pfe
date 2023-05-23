@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-
+import './style.css'
 export default function Pied() {
   return (
     <div>
