@@ -65,14 +65,11 @@ main{
 .link_text{
     display: block;
 }
-@media screen and ( max-width: 570px) {
+@media screen and ( max-width: 670px) {
     .sidebar{
         width: 50px;
-<<<<<<< HEAD
         border-top-right-radius:30px ;
 
-=======
->>>>>>> 37591ed720a51a3cecd32fe076e573b7d7778234
     }
     .logo{
         display: none;

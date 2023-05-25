@@ -6,10 +6,7 @@ import Header from './components/header/Header';
 import './App.css'
 import SideNavBar from './components/navbar/SideNavBar';
 import Pied from './components/footer/Pied'
-<<<<<<< HEAD
 import Home from './components/home/Home';
-=======
->>>>>>> 37591ed720a51a3cecd32fe076e573b7d7778234
 export default function App() {
   return (
     <div className='all'>
@@ -25,10 +22,7 @@ export default function App() {
       <footer>
         <Pied />
       </footer>
-<<<<<<< HEAD
 {/* <Home/> */}
-=======
->>>>>>> 37591ed720a51a3cecd32fe076e573b7d7778234
     </div>
   );
 }

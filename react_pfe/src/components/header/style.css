@@ -1,6 +1,5 @@
 .header{
      background-color: transparent;
-<<<<<<< HEAD
      height: 150px;
      display: flex;
      justify-content: space-between;
@@ -9,7 +8,6 @@
 }
 img{
      height: 130px;
-=======
      height: 200px;
      display: flex;
      justify-content: space-between;
@@ -17,12 +15,10 @@ img{
 }
 img{
      height: 200px;
->>>>>>> 37591ed720a51a3cecd32fe076e573b7d7778234
 }
 button{
      height: 30px;
 }
-<<<<<<< HEAD
 
 
 /* CSS */
@@ -87,7 +83,7 @@ button{
      font-size: 50px;
      color: #3586ff;
 }
-@media screen and ( max-width: 570px) {
+@media screen and ( max-width: 670px) {
     .imgf{
      display: block;
     }
@@ -109,11 +105,4 @@ img{
      padding:0 5%;
 }
    }
-=======
-/* .bib{
-     display: flex;
-     justify-content: space-between;
-     background-color: red;
-     align-items: center;
-} */
->>>>>>> 37591ed720a51a3cecd32fe076e573b7d7778234
+
